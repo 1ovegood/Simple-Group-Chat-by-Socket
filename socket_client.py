@@ -5,9 +5,9 @@ from tkinter import scrolledtext, messagebox
 from queue import Queue, Empty
  
 class ChatClient:
-     
+    """Initializes the ChatClient.""" 
     def __init__(self, protocol):
-        
+        self.protocol = protocol
         """Initializes the GUI."""
         self.username = ""
         self.client_socket = None
