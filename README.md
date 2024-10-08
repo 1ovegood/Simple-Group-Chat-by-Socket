@@ -1,18 +1,41 @@
-# Basic-TCP-UDP-Socket-demo
-This repository contains a simple demonstration of socket programming using Python, showcasing both TCP and UDP communication protocols. It includes a client-server architecture where users can choose between TCP and UDP protocols to send and receive messages locally.
+# Simple Chat Application
 
-## Getting Started
-
-To run the demo:
-
-1. Clone this repository to your local machine.
-2. Navigate to the directory containing the scripts.
-3. Open 2 terminals for server and client
-4. Start the server script (socket_server.py) and launch the client script (socket_client.py) 
-5. Begin sending messages between the client and server.
+This repository contains a simple chat application implemented in Python using sockets for network communication and tkinter for the GUI. The application supports both TCP and UDP protocols.
 
 ## Features
 
-- **TCP and UDP Support**: Easily switch between TCP and UDP protocols.
-- **Real-time Communication**: Send and receive messages in real time.
-- **User-Friendly**: Simple command-line interface for user interactions.
+- **TCP/UDP Support**: Users can choose between TCP or UDP protocol for message exchange.
+- **Multi-threaded Server**: Handles multiple client connections simultaneously.
+- **GUI Client**: A simple and intuitive graphical user interface for interacting with the chat server.
+
+## Structure
+
+The project consists of two main parts:
+
+1. **Server**: Handles incoming connections, receives messages from clients, and broadcasts them to all connected clients.
+2. **Client**: Connects to the server, sends messages, and displays received messages in a GUI.
+
+## Getting Started
+
+### Prerequisites
+
+- Python 3.x
+- tkinter library (usually comes with Python)
+
+### Running the Server
+
+1. Navigate to the directory.
+2. Run the following command in your terminal:
+   ```bash
+   python socket_server.py
+3. Open another terminal and run:
+   ```bash
+   python socket_client.py
+4.You can change server address to your own server if you like:
+
+
+## Usage
+After launching both the server and the client:
+1.Log in with a username.
+2.Start sending and receiving messages.
+
