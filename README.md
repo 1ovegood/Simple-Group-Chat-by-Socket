@@ -35,7 +35,7 @@ The project consists of two main parts:
 
 
 ## Usage
-After launching both the server and the client:
-1.Log in with a username.
-2.Start sending and receiving messages.
+
+1. Log in with a username.
+2. Start sending and receiving messages.
 
